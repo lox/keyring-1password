@@ -1,0 +1,39 @@
+version: "2"
+
+linters:
+  enable:
+    - bodyclose
+    - contextcheck
+    - durationcheck
+    - dupl
+    - errchkjson
+    - errname
+    - exhaustive
+    - gocritic
+    - makezero
+    - misspell
+    - nakedret
+    - nilerr
+    - nilnil
+    - noctx
+    - prealloc
+    - revive
+    # - rowserrcheck
+    - thelper
+    - tparallel
+    - unconvert
+    - unparam
+    # - wastedassign
+    - whitespace
+  settings:
+    revive:
+      rules:
+        - name: exported
+          disabled: true
+        - name: package-comments
+          disabled: true
+
+formatters:
+  enable:
+    - gofmt
+    - goimports
