@@ -1,6 +1,6 @@
 keyring-1password
 =================
-[![CI](https://github.com/lox/keyring-1password/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/lox/keyring-1password/actions/workflows/test.yml)
+[![CI](https://github.com/lox/keyring-1password/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/lox/keyring-1password/actions/workflows/test.yml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/lox/keyring-1password.svg)](https://pkg.go.dev/github.com/lox/keyring-1password)
 
 1Password provider for [`github.com/lox/keyring/v2`](https://github.com/lox/keyring).
