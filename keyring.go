@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	opsdk "github.com/1password/onepassword-sdk-go"
 	"github.com/lox/keyring/v2"
+	opsdk "github.com/lox/onepassword-sdk-native-go"
 )
 
 const (

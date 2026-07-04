@@ -5,9 +5,9 @@ keyring-1password
 
 1Password provider for [`github.com/lox/keyring/v2`](https://github.com/lox/keyring).
 
-This module uses the official 1Password Go SDK. Keep it as an optional
-dependency: the SDK pulls in a large WASM/runtime stack that should not live in
-the core keyring module.
+This module uses [`github.com/lox/onepassword-sdk-native-go`](https://github.com/lox/onepassword-sdk-native-go)
+to keep 1Password support outside the core keyring module without pulling in
+the official SDK's WASM/runtime stack.
 
 ## Usage
 
